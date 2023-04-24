@@ -82,7 +82,7 @@ while True:
 
 
     cv2.putText(sharp1, "Number of Faces: "+str(count),(10, 50), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2 )
-    cv2.imshow("Face Detection and Counting System", sharp1)
+    cv2.imshow("Face Detection & Counting System", sharp1)
     if cv2.waitKey(15) == ord('q'):
         break
 
